@@ -5,9 +5,9 @@ body {
   justify-content: center;
 }
 
-body#homepage {
-  /* background-color: rgb(19, 19, 61); */
-}
+/* body#homepage {
+  background-color: rgb(19, 19, 61);
+} */
 
 header {
   width: 99.4vw;
@@ -43,8 +43,61 @@ main img {
   width: 99.4vw;
 }
 
-/*   Contact.html  */
+/*   Home  */
+#homepage {
+  background-image: url("img/contact_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
+}
 
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.planet-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.planet-container img {
+  height: 30vh;
+  width: 20vw;
+}
+
+.description {
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+  color: white;
+  background-color: rgba(19, 19, 61, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.description h1 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+}
+
+.description p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+
+
+/*   Contact  */
 body#contact{
   background-image: url("img/contact_bg.jpg");
   background-repeat: no-repeat;
@@ -67,7 +120,7 @@ form {
   align-items: center;
   justify-content: center;
   background-color: rgb(19, 19, 61, 0.06);
-  backdrop-filter: blur(35px);
+  backdrop-filter: blur(10px);
 }
 
 form label {
@@ -81,4 +134,12 @@ form textarea {
 }
 
 footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  background-color: rgba(19, 19, 61, 0.7);
+  backdrop-filter: blur(36px);
+  color: whitesmoke;
+  position: fixed;
+  bottom: 0;
 }
