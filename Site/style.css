@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body#homepage {
+  /* background-color: rgb(19, 19, 61); */
+}
+
+header {
+  width: 99.4vw;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li {
+  list-style: none;
+  color: white;
+}
+
+header nav ul li a {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+
+li img {
+  height: 10vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+main img {
+  height: 100vh;
+  width: 99.4vw;
+}
+
+/*   Contact.html  */
+
+body#contact{
+  background-image: url("img/contact_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main#form {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  height: 35vh;
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(19, 19, 61, 0.06);
+  backdrop-filter: blur(35px);
+}
+
+form label {
+  color: white;
+  margin: 10px;
+}
+
+form textarea {
+  max-width: 13vw;
+  max-height: 13vh;
+}
+
+footer {
+}
