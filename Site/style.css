@@ -4,15 +4,12 @@ body {
   align-items: center;
   justify-content: center;
 }
-
-/* body#homepage {
-  background-color: rgb(19, 19, 61);
-} */
-
 header {
-  width: 99.4vw;
-  display: flex;
-  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 header nav ul {
@@ -42,6 +39,9 @@ main img {
   height: 100vh;
   width: 99.4vw;
 }
+#btnLogin{
+  cursor: pointer;
+}
 
 /*   Home  */
 #homepage {
@@ -67,11 +67,14 @@ main img {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .planet-container img {
-  height: 30vh;
-  width: 20vw;
+  height: 25vh;
+  width: 15vw;
+  border-radius: 50%;
+  object-fit: initial;
 }
 
 .description {
@@ -98,7 +101,7 @@ main img {
 
 
 /*   Contact  */
-body#contact{
+body#contact {
   background-image: url("img/contact_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -120,7 +123,7 @@ form {
   align-items: center;
   justify-content: center;
   background-color: rgb(19, 19, 61, 0.06);
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
 }
 
 form label {
@@ -138,7 +141,7 @@ footer {
   text-align: center;
   padding: 10px 0;
   background-color: rgba(19, 19, 61, 0.7);
-  backdrop-filter: blur(36px);
+  /* backdrop-filter: blur(36px); */
   color: whitesmoke;
   position: fixed;
   bottom: 0;
